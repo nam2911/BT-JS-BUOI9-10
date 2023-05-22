@@ -96,7 +96,7 @@ isValid &= validation.kiemTraChucVu("chucvu", "tbChucVu", "(*) Vui lòng chọn 
   //Validation Giờ làm
  // Validation Lương CB
  isValid &=
- validation.kiemTraRong(_gioLam, "tbGiolam", "(*) Vui lòng nhập lương giờ làm") &&
+ validation.kiemTraRong(_gioLam, "tbGiolam", "(*) Vui lòng nhập giờ làm") &&
  validation.kiemTraPattern(
   _gioLam,
   /^([8-9][0-9]|1[0-9]{2}|200)$/,
